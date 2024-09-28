@@ -1,2 +1,15 @@
-package com.example.jwtsecutirydemo.entity;public class AuthRequest {
+package com.example.jwtsecutirydemo.entity;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class AuthRequest {
+
+    private String username;
+    private String password;
+
 }
